@@ -11,7 +11,8 @@
 	<groupId>net.haidarali</groupId>
 	<artifactId>redmist</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>redmist</name>
+    <packaging>pom</packaging>
+    <name>redmist</name>
 	<description>Painless way to use Pushshift archives.</description>
 	<url/>
 	<licenses>
@@ -20,7 +21,14 @@
 	<developers>
 		<developer/>
 	</developers>
-	<scm>
+    <modules>
+        <module>ingestor</module>
+        <module>sanitizer</module>
+        <module>persister</module>
+        <module>gateway</module>
+        <module>common</module>
+    </modules>
+    <scm>
 		<connection/>
 		<developerConnection/>
 		<tag/>
