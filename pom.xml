@@ -8,8 +8,8 @@
 		<version>3.5.6</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>net.haidarali</groupId>
-	<artifactId>redmist</artifactId>
+	<groupId>com.redmist</groupId>
+	<artifactId>redmist-monorepo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>redmist</name>
